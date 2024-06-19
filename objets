@@ -15,7 +15,7 @@ let object_name = {
     ...
 }
  
-    Internal Representation of JavaScript Objects
+    Internal   Representation of JavaScript Objects
 
 1. Properties: Properties are key-value pairs that define the characteristics or attributes of an object.
  In the example above, firstName, lastName, and age are properties of the person object.
