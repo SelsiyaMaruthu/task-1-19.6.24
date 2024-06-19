@@ -1,0 +1,36 @@
+/*OBJECT
+
+ Objects, in JavaScript, are the most important data type and form the building blocks for modern JavaScript.
+These objects are quite different from JavaScript’s primitive data types (Number, String, Boolean, null, undefined, and symbol)
+ in the sense that these primitive data types all store a single value each (depending on their types).
+
+  Syntax:
+
+new Object(value)
+
+Object(value)
+
+let object_name = {
+    key_name : value,
+    ...
+}
+ 
+    Internal Representation of JavaScript Objects
+
+1. Properties: Properties are key-value pairs that define the characteristics or attributes of an object.
+ In the example above, firstName, lastName, and age are properties of the person object.
+
+2.   Methods: Methods are functions that are associated with an object. 
+   They allow objects to perform actions or computations. In the person object, getAddress is a method.
+
+3.   Prototype: Each object in JavaScript is associated with a prototype, which is another object.
+ The prototype defines properties and methods that are shared among all instances of that object type. 
+This enables inheritance in JavaScript, allowing objects to inherit properties and methods from their prototype.
+
+4. Hidden Properties: JavaScript engines, like V8 (used in Chrome) and SpiderMonkey (used in Firefox), 
+store additional information about objects that is not directly accessible from JavaScript code.
+ These hidden properties help optimize the execution of JavaScript code.
+
+ 5.Object Shape: Objects in JavaScript can change dynamically during runtime.
+  The JavaScript engine may optimize an object's internal structure based on its usage,
+   which can result in changes to its shape and representation. */

@@ -1,0 +1,26 @@
+HTTP/1.1
+    * The first usable version of HTTP was created in 1997.
+    * Because it went through several stages of development, this first version of HTTP was called HTTP/1.1.
+    *  This version is still in use on the web.
+
+HTTP/2
+    * In 2015, a new version of HTTP called HTTP/2 was created.
+    * HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate. 
+    * In particular, HTTP/2 is much faster and more efficient than HTTP/1.1.
+    * One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process.
+
+
+     Difference between HTTP1.1 vs HTTP2
+  
+  HTTP/1.1                                                          HTTP/2
+
+1.It works on the textual format.                             	1. It works on the binary protocol.
+  
+2. There is head of line blocking                               2. It allows multiplexing so one TCP connection is 
+  that blocks allthe requests behind                              is required for multiple requests.
+  it until it doesn’t get its all resources.
+
+3. It uses requests resource Inlining                           3. It uses PUSH frame by server that collects all 
+  for use getting multiple pages.                                 multiple pages.
+
+4. It compresses data by itself.                                4. It uses HPACK for data compression.
